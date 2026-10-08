@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-08T08:52:08 MSK" name="SauceDemo Cross Browser" finished-at="2026-10-08T08:54:16 MSK" duration-ms="128654">
+    <groups>
+    </groups>
+    <test started-at="2026-10-08T08:52:08 MSK" name="Edge" finished-at="2026-10-08T08:53:46 MSK" duration-ms="98282">
+      <class name="tests.SauceDemoTest">
+        <test-method is-config="true" signature="prepareDrivers()[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:52:07 MSK" name="prepareDrivers" finished-at="2026-10-08T08:52:08 MSK" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareDrivers -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:52:08 MSK" name="setUp" finished-at="2026-10-08T08:52:13 MSK" duration-ms="5568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldAddTwoProductsToCart()[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:52:13 MSK" name="shouldAddTwoProductsToCart" description="Добавление двух товаров в корзину" finished-at="2026-10-08T08:52:23 MSK" duration-ms="9668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoProductsToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:52:23 MSK" name="tearDown" finished-at="2026-10-08T08:52:24 MSK" duration-ms="1129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldAddTwoProductsToCart status=SUCCESS method=SauceDemoTest.shouldAddTwoProductsToCart()[pri:0, instance:tests.SauceDemoTest@f0c8a99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:52:24 MSK" name="setUp" finished-at="2026-10-08T08:52:29 MSK" duration-ms="4778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldCompleteCheckout()[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:52:29 MSK" name="shouldCompleteCheckout" description="Полное оформление заказа" finished-at="2026-10-08T08:52:42 MSK" duration-ms="13387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCompleteCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:52:42 MSK" name="tearDown" finished-at="2026-10-08T08:52:43 MSK" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldCompleteCheckout status=SUCCESS method=SauceDemoTest.shouldCompleteCheckout()[pri:0, instance:tests.SauceDemoTest@f0c8a99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:52:43 MSK" name="setUp" finished-at="2026-10-08T08:52:45 MSK" duration-ms="2389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldLoginSuccessfully()[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:52:45 MSK" name="shouldLoginSuccessfully" description="Позитив: стандартный пользователь успешно входит" finished-at="2026-10-08T08:52:55 MSK" duration-ms="10426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLoginSuccessfully -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:52:55 MSK" name="tearDown" finished-at="2026-10-08T08:52:57 MSK" duration-ms="1641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldLoginSuccessfully status=SUCCESS method=SauceDemoTest.shouldLoginSuccessfully()[pri:0, instance:tests.SauceDemoTest@f0c8a99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:52:57 MSK" name="setUp" finished-at="2026-10-08T08:52:59 MSK" duration-ms="2292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldRejectInvalidPassword()[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:52:59 MSK" name="shouldRejectInvalidPassword" description="Негатив: неверный пароль отклоняется" finished-at="2026-10-08T08:53:10 MSK" duration-ms="10428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectInvalidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:53:10 MSK" name="tearDown" finished-at="2026-10-08T08:53:11 MSK" duration-ms="1659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldRejectInvalidPassword status=SUCCESS method=SauceDemoTest.shouldRejectInvalidPassword()[pri:0, instance:tests.SauceDemoTest@f0c8a99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:53:11 MSK" name="setUp" finished-at="2026-10-08T08:53:15 MSK" duration-ms="3192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldRejectLockedUser()[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:53:15 MSK" name="shouldRejectLockedUser" description="Негатив: заблокированный пользователь не может войти" finished-at="2026-10-08T08:53:21 MSK" duration-ms="6687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectLockedUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:53:21 MSK" name="tearDown" finished-at="2026-10-08T08:53:26 MSK" duration-ms="4607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldRejectLockedUser status=SUCCESS method=SauceDemoTest.shouldRejectLockedUser()[pri:0, instance:tests.SauceDemoTest@f0c8a99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:53:26 MSK" name="setUp" finished-at="2026-10-08T08:53:29 MSK" duration-ms="2606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldRemoveProductFromCart()[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:53:29 MSK" name="shouldRemoveProductFromCart" description="Удаление товара из корзины" finished-at="2026-10-08T08:53:35 MSK" duration-ms="6249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRemoveProductFromCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:53:35 MSK" name="tearDown" finished-at="2026-10-08T08:53:36 MSK" duration-ms="1342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldRemoveProductFromCart status=SUCCESS method=SauceDemoTest.shouldRemoveProductFromCart()[pri:0, instance:tests.SauceDemoTest@f0c8a99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:53:36 MSK" name="setUp" finished-at="2026-10-08T08:53:39 MSK" duration-ms="3002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldSortProductsByPriceAscending()[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:53:39 MSK" name="shouldSortProductsByPriceAscending" description="Сортировка товаров по возрастанию цены" finished-at="2026-10-08T08:53:44 MSK" duration-ms="4768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSortProductsByPriceAscending -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@f0c8a99]" started-at="2026-10-08T08:53:44 MSK" name="tearDown" finished-at="2026-10-08T08:53:46 MSK" duration-ms="2118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldSortProductsByPriceAscending status=SUCCESS method=SauceDemoTest.shouldSortProductsByPriceAscending()[pri:0, instance:tests.SauceDemoTest@f0c8a99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SauceDemoTest -->
+    </test> <!-- Edge -->
+    <test started-at="2026-10-08T08:52:08 MSK" name="Chrome" finished-at="2026-10-08T08:53:58 MSK" duration-ms="110492">
+      <class name="tests.SauceDemoTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:52:08 MSK" name="setUp" finished-at="2026-10-08T08:52:13 MSK" duration-ms="5508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldAddTwoProductsToCart()[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:52:13 MSK" name="shouldAddTwoProductsToCart" description="Добавление двух товаров в корзину" finished-at="2026-10-08T08:52:22 MSK" duration-ms="8649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoProductsToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:52:22 MSK" name="tearDown" finished-at="2026-10-08T08:52:24 MSK" duration-ms="1790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldAddTwoProductsToCart status=SUCCESS method=SauceDemoTest.shouldAddTwoProductsToCart()[pri:0, instance:tests.SauceDemoTest@4efac082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:52:24 MSK" name="setUp" finished-at="2026-10-08T08:52:28 MSK" duration-ms="3935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldCompleteCheckout()[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:52:28 MSK" name="shouldCompleteCheckout" description="Полное оформление заказа" finished-at="2026-10-08T08:52:38 MSK" duration-ms="9825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCompleteCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:52:38 MSK" name="tearDown" finished-at="2026-10-08T08:52:38 MSK" duration-ms="193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldCompleteCheckout status=SUCCESS method=SauceDemoTest.shouldCompleteCheckout()[pri:0, instance:tests.SauceDemoTest@4efac082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:52:38 MSK" name="setUp" finished-at="2026-10-08T08:52:41 MSK" duration-ms="2639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldLoginSuccessfully()[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:52:41 MSK" name="shouldLoginSuccessfully" description="Позитив: стандартный пользователь успешно входит" finished-at="2026-10-08T08:52:51 MSK" duration-ms="10384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLoginSuccessfully -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:52:51 MSK" name="tearDown" finished-at="2026-10-08T08:52:52 MSK" duration-ms="869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldLoginSuccessfully status=SUCCESS method=SauceDemoTest.shouldLoginSuccessfully()[pri:0, instance:tests.SauceDemoTest@4efac082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:52:52 MSK" name="setUp" finished-at="2026-10-08T08:52:55 MSK" duration-ms="2695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldRejectInvalidPassword()[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:52:55 MSK" name="shouldRejectInvalidPassword" description="Негатив: неверный пароль отклоняется" finished-at="2026-10-08T08:53:24 MSK" duration-ms="29124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectInvalidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:53:24 MSK" name="tearDown" finished-at="2026-10-08T08:53:29 MSK" duration-ms="5037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldRejectInvalidPassword status=SUCCESS method=SauceDemoTest.shouldRejectInvalidPassword()[pri:0, instance:tests.SauceDemoTest@4efac082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:53:29 MSK" name="setUp" finished-at="2026-10-08T08:53:32 MSK" duration-ms="3030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldRejectLockedUser()[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:53:32 MSK" name="shouldRejectLockedUser" description="Негатив: заблокированный пользователь не может войти" finished-at="2026-10-08T08:53:40 MSK" duration-ms="7793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectLockedUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:53:40 MSK" name="tearDown" finished-at="2026-10-08T08:53:41 MSK" duration-ms="1042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldRejectLockedUser status=SUCCESS method=SauceDemoTest.shouldRejectLockedUser()[pri:0, instance:tests.SauceDemoTest@4efac082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:53:41 MSK" name="setUp" finished-at="2026-10-08T08:53:44 MSK" duration-ms="3637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldRemoveProductFromCart()[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:53:44 MSK" name="shouldRemoveProductFromCart" description="Удаление товара из корзины" finished-at="2026-10-08T08:53:47 MSK" duration-ms="3084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRemoveProductFromCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:53:47 MSK" name="tearDown" finished-at="2026-10-08T08:53:48 MSK" duration-ms="814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldRemoveProductFromCart status=SUCCESS method=SauceDemoTest.shouldRemoveProductFromCart()[pri:0, instance:tests.SauceDemoTest@4efac082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:53:48 MSK" name="setUp" finished-at="2026-10-08T08:53:51 MSK" duration-ms="2734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldSortProductsByPriceAscending()[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:53:51 MSK" name="shouldSortProductsByPriceAscending" description="Сортировка товаров по возрастанию цены" finished-at="2026-10-08T08:53:58 MSK" duration-ms="6990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSortProductsByPriceAscending -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@4efac082]" started-at="2026-10-08T08:53:58 MSK" name="tearDown" finished-at="2026-10-08T08:53:58 MSK" duration-ms="271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldSortProductsByPriceAscending status=SUCCESS method=SauceDemoTest.shouldSortProductsByPriceAscending()[pri:0, instance:tests.SauceDemoTest@4efac082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SauceDemoTest -->
+    </test> <!-- Chrome -->
+    <test started-at="2026-10-08T08:52:08 MSK" name="Firefox" finished-at="2026-10-08T08:54:16 MSK" duration-ms="128654">
+      <class name="tests.SauceDemoTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:52:08 MSK" name="setUp" finished-at="2026-10-08T08:52:22 MSK" duration-ms="14075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldAddTwoProductsToCart()[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:52:22 MSK" name="shouldAddTwoProductsToCart" description="Добавление двух товаров в корзину" finished-at="2026-10-08T08:52:28 MSK" duration-ms="6475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoProductsToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:52:28 MSK" name="tearDown" finished-at="2026-10-08T08:52:30 MSK" duration-ms="1285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldAddTwoProductsToCart status=SUCCESS method=SauceDemoTest.shouldAddTwoProductsToCart()[pri:0, instance:tests.SauceDemoTest@2a7f1f10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:52:30 MSK" name="setUp" finished-at="2026-10-08T08:52:36 MSK" duration-ms="6377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldCompleteCheckout()[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:52:36 MSK" name="shouldCompleteCheckout" description="Полное оформление заказа" finished-at="2026-10-08T08:52:47 MSK" duration-ms="11242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCompleteCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:52:47 MSK" name="tearDown" finished-at="2026-10-08T08:52:48 MSK" duration-ms="697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldCompleteCheckout status=SUCCESS method=SauceDemoTest.shouldCompleteCheckout()[pri:0, instance:tests.SauceDemoTest@2a7f1f10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:52:48 MSK" name="setUp" finished-at="2026-10-08T08:52:57 MSK" duration-ms="9421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldLoginSuccessfully()[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:52:57 MSK" name="shouldLoginSuccessfully" description="Позитив: стандартный пользователь успешно входит" finished-at="2026-10-08T08:53:10 MSK" duration-ms="12622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLoginSuccessfully -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:53:10 MSK" name="tearDown" finished-at="2026-10-08T08:53:11 MSK" duration-ms="701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldLoginSuccessfully status=SUCCESS method=SauceDemoTest.shouldLoginSuccessfully()[pri:0, instance:tests.SauceDemoTest@2a7f1f10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:53:11 MSK" name="setUp" finished-at="2026-10-08T08:53:19 MSK" duration-ms="8759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldRejectInvalidPassword()[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:53:19 MSK" name="shouldRejectInvalidPassword" description="Негатив: неверный пароль отклоняется" finished-at="2026-10-08T08:53:26 MSK" duration-ms="6204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectInvalidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:53:26 MSK" name="tearDown" finished-at="2026-10-08T08:53:27 MSK" duration-ms="890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldRejectInvalidPassword status=SUCCESS method=SauceDemoTest.shouldRejectInvalidPassword()[pri:0, instance:tests.SauceDemoTest@2a7f1f10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:53:27 MSK" name="setUp" finished-at="2026-10-08T08:53:36 MSK" duration-ms="9917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldRejectLockedUser()[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:53:37 MSK" name="shouldRejectLockedUser" description="Негатив: заблокированный пользователь не может войти" finished-at="2026-10-08T08:53:45 MSK" duration-ms="8587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectLockedUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:53:45 MSK" name="tearDown" finished-at="2026-10-08T08:53:46 MSK" duration-ms="897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldRejectLockedUser status=SUCCESS method=SauceDemoTest.shouldRejectLockedUser()[pri:0, instance:tests.SauceDemoTest@2a7f1f10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:53:46 MSK" name="setUp" finished-at="2026-10-08T08:53:54 MSK" duration-ms="8510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldRemoveProductFromCart()[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:53:55 MSK" name="shouldRemoveProductFromCart" description="Удаление товара из корзины" finished-at="2026-10-08T08:54:02 MSK" duration-ms="7669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRemoveProductFromCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:54:02 MSK" name="tearDown" finished-at="2026-10-08T08:54:03 MSK" duration-ms="779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldRemoveProductFromCart status=SUCCESS method=SauceDemoTest.shouldRemoveProductFromCart()[pri:0, instance:tests.SauceDemoTest@2a7f1f10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:54:03 MSK" name="setUp" finished-at="2026-10-08T08:54:08 MSK" duration-ms="5186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldSortProductsByPriceAscending()[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:54:08 MSK" name="shouldSortProductsByPriceAscending" description="Сортировка товаров по возрастанию цены" finished-at="2026-10-08T08:54:16 MSK" duration-ms="7461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSortProductsByPriceAscending -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SauceDemoTest@2a7f1f10]" started-at="2026-10-08T08:54:16 MSK" name="tearDown" finished-at="2026-10-08T08:54:16 MSK" duration-ms="825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldSortProductsByPriceAscending status=SUCCESS method=SauceDemoTest.shouldSortProductsByPriceAscending()[pri:0, instance:tests.SauceDemoTest@2a7f1f10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SauceDemoTest -->
+    </test> <!-- Firefox -->
+  </suite> <!-- SauceDemo Cross Browser -->
+</testng-results>

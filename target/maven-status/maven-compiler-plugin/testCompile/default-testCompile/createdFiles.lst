@@ -1,0 +1,8 @@
+utils/AllureAttachments.class
+pages/CartPage.class
+pages/CheckoutPage.class
+tests/SauceDemoTest.class
+pages/BasePage.class
+tests/BaseTest.class
+pages/ProductsPage.class
+pages/LoginPage.class
